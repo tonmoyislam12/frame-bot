@@ -1,0 +1,10 @@
+build:
+  hello-world:
+     context: .
+     dockerfile: Dockerfile
+environments:
+  - name: NODE_ENV
+  - name: ACCESS_TOKEN
+  - name: VIDEO_NAME
+  - name: PAGE_ID
+  - name: LINK
