@@ -1,9 +1,0 @@
-build:
-  hello-world:
-     context: .
-     dockerfile: Dockerfile
-     args:
-       LINK: ${LINK}
-       PAGE_ID: ${PAGE_ID}
-       ACCESS_TOKEN: ${ACCESS_TOKEN}
-       VIDEO_NAME: ${VIDEO_NAME}
