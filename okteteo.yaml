@@ -1,0 +1,9 @@
+build:
+  dockerfile: Dockerfile
+  variables:
+    - LINK: ${LINK}
+    - PAGE_ID: ${PAGE_ID}
+    - ACCESS_TOKEN: ${ACCESS_TOKEN}
+    - VIDEO_NAME: ${VIDEO_NAME}
+deploy:
+  command: bash makeframe.sh

@@ -1,6 +1,0 @@
-version: "1.0"
-
-services:
-  app:
-    build: .
-    command: bash makeframe.sh
